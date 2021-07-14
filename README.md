@@ -9,7 +9,9 @@ npm install
 # webpack5-tutorial
 
 - npm run dev
-ope browser in: localhost:9000
+
+open browser in: localhost:9000
 
 - npm run build
+
 builds the app
