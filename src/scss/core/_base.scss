@@ -19,7 +19,7 @@ html,
 body {
   // scss-lint:disable ColorVariable,ColorKeyword,SpaceAfterComma
   color: palette(black,dark);
-  font: $font-weight-medium $font-size-root/#{$line-height-root} $font-family-root;
+  //font: $font-weight-medium $font-size-root/#{$line-height-root} $font-family-root;
   height: 100%;
   min-height: 100%;
   padding-bottom: 20px;

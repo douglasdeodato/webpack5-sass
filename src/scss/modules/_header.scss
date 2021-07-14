@@ -16,7 +16,7 @@ header h1 {
   height: 40px;
   width: 140px;
   float: left;
-  background: url(../../public/images/logo.png) 0 0 no-repeat;
+ // background: url(../../public/images/logo.png) 0 0 no-repeat;
   text-indent: -9999px;
 }
 
@@ -32,6 +32,6 @@ header nav li {
 
 
 .site-logo {
-  @include img-replace("logo.png", 596px, 382px, inline-block);
+ // @include img-replace("logo.png", 596px, 382px, inline-block);
   margin-top: 10px;
 }

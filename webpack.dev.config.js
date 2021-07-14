@@ -7,7 +7,8 @@ module.exports = {
     entry: {
         //chuncks names
         'hello-world': './src/hello-world.js',
-        'kiwi': './src/kiwi.js'
+        'kiwi': './src/kiwi.js',
+        'sass-test': './src/sass-test.js'
     },
     output: {
         filename: '[name].bundle.js',
@@ -84,6 +85,14 @@ module.exports = {
         title: 'kiwi title',
         template: 'src/page-template.hbs',
         description: 'kiwi',
+        minify: false
+    }),
+    new HtmlWebpackPlugin({
+        filename:'sass.html',
+        chunks: ['sass-test'],
+        title: 'sass-test title',
+        template: 'src/page-template.hbs',
+        description: 'sass-test',
         minify: false
     })
     ]
