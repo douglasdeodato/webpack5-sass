@@ -17,6 +17,7 @@ python  https://www.python.org/downloads/
 installing from scratch? install or reinstall all dependencies 
 
 rm -rf node_modules
+
 npm install
 
 
